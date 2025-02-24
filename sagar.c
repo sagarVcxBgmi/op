@@ -71,3 +71,6 @@ int main(int argc, char* argv[]) {
     for (int i = 0; i < max_threads; i++) {
         pthread_join(threads[i], NULL);
     }
+
+    return 0;
+}
