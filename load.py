@@ -20,8 +20,8 @@ logging.basicConfig(level=logging.INFO)
 MAX_ATTACK_DURATION = 240
 USER_ACCESS_FILE = "user_access.txt"
 ATTACK_LOG_FILE = "attack_log.txt"
-OWNER_ID = "6442837812"
-bot = telebot.TeleBot('7674857613:AAEpC3RZXZJRVuI4z4NbR08v80HlAPiA7A0')
+OWNER_ID = "945650098"
+bot = telebot.TeleBot('7447444149:AAHvSkVkEZu1KZkzzYsWPM7Dv-7sVQ-KXy0')
 
 # Auto-convert backup file on first run
 if not os.path.exists(USER_ACCESS_FILE) and os.path.exists("user_access_backup.txt"):
@@ -237,7 +237,7 @@ def start_command(message):
 
 🚀 Use <b>/help</b> to see the available commands and get started!
 
-🛡️ For assistance, contact <a href="tg://user?id=6442837812">@wtf_vai</a>
+🛡️ For assistance, contact <a href="tg://user?id=945650098">@its_darinda</a>
 
 <b>Note:</b> Unauthorized access is prohibited. Contact an admin if you need access.
     """
